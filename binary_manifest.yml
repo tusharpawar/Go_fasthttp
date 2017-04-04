@@ -1,0 +1,9 @@
+---
+applications:
+  - name: Go_fasthttp
+    memory: 1G
+    disk_quota: 200M
+    instances: 1
+    host: Go_fasthttp
+    command: ./go_rest_fasthttp
+    buildpack: binary_buildpack
